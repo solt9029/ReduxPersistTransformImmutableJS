@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "eslint": "eslint --ext .ts,js .",
+    "eslint": "eslint --ext .ts,js --ignore-path .gitignore .",
     "eslint-fix": "npm run eslint -- --fix"
   },
   "author": "Kenshi Shiode",
