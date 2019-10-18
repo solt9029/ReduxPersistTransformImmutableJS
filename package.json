@@ -16,6 +16,11 @@
   "author": "Kenshi Shiode",
   "license": "ISC",
   "dependencies": {
+    "@types/immutable": "^3.8.7",
+    "@types/node": "^12.11.1",
+    "@types/react": "^16.9.9",
+    "@types/redux": "^3.6.0",
+    "@types/remotedev-serialize": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.4.0",
     "@typescript-eslint/parser": "^2.4.0",
     "eslint": "^6.5.1",
@@ -24,7 +29,10 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-promise": "^4.2.1",
+    "immutable": "^3.8.2",
     "prettier": "^1.18.2",
+    "redux-persist": "^6.0.0",
+    "remotedev-serialize": "^0.1.8",
     "typescript": "^3.6.4"
   }
 }
